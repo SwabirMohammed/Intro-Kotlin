@@ -3,7 +3,7 @@ fun main(args: Array<String>) {
     print(name)
 
     var age = 29
-    print()
+    print(age)
 }
 
 
