@@ -1,7 +1,10 @@
 fun main(args: Array<String>) {
 
-   for(i in 5..50){
-       println(i)
+   for(i in 1..100){
+       if (i % 5 == 0){
+           println(i)
+       } else println("Not Divisible")
+
    }
 
 
