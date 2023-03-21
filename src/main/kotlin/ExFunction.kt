@@ -1,28 +1,22 @@
 fun main(args: Array<String>) {
-    addnumbers()
-    multiplynumbers()
-    dividenumbers()
+    addnumbers(num1 = 400, num2 = 400)
+    multiplynumbers(num1 = 500, num2 = 4)
+    dividenumbers(num1 = 100, num2 = 5)
 }
 
 
-fun addnumbers(){
-    val val1 = 500
-    val val2 = 300
-    val sum = val1 + val2
-    println(sum)
+fun addnumbers(num1:Int, num2:Int){
+    var result = num1 + num2
+    println(result)
 }
 
-fun multiplynumbers(){
-    val val1 = 500
-    val val2 = 4
-    val multiplication = val1 * val2
-    println(multiplication)
+fun multiplynumbers(num1: Int, num2: Int){
+    var result = num1 * num2
+    println(result)
 }
 
 
-fun dividenumbers(){
-    val val1 = 100
-    val val2 = 5
-    val division = val1 / val2
-    println(division)
+fun dividenumbers(num1: Int, num2: Int){
+    var result = num1 / num2
+    println(result)
 }
